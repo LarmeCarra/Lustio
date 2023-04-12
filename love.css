@@ -1,0 +1,101 @@
+@keyframes text{
+    from{font-size: 100px; font-family: times; color: blue;}
+    to{font-size: 40px; font-family: cursive; color: red;}
+}
+
+@keyframes  ims{
+    from{width: 200%; height: 200%; position: absolute;}
+    to{width: 60%; height: 30%; position: ;}
+}
+
+@keyframes uns {
+    from{width: 0%; height: 0%;}
+    to{width: 100%; height: 100%;}
+    }
+
+
+
+body{
+    background-color: black;
+}
+
+.back{
+    width: 95%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 0%;
+    display: none;
+}
+
+.title{
+    text-align: center;
+    font-family: cursive;
+    color: red;
+    font-size: 40px;
+    animation-name: text;
+    animation-duration: 4s;
+}
+
+
+.im{
+    width: 60%;
+    height: 30%;
+    animation: ims 4s;
+    position: absolute;
+    right: 70px;
+    top: 90px;
+}
+
+.rose{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.flower{
+    
+    width: 5px;
+    height: 5px;
+}
+
+.vid{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.on{
+    text-align: center;
+    color: white;
+}
+
+.pi1{
+    border: 5px solid gray;
+    background-color: skyblue;
+    color: red;
+    border-radius: 30%;
+    justify-content: center;
+    text-align: center;
+}
+
+.un{
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: uns 4s;
+    position: absolute;
+    top: 0%;
+}
+
+.in1{
+	text-align: center;
+	color: white;
+}
+
+.in{
+	text-align: center;
+	color: red;
+	font-family: cursive;
+}

@@ -1,0 +1,224 @@
+/*Animation*/
+@keyframes blink{
+    from{opacity: 1;}
+    to{opacity: 0.7;}
+}
+
+@keyframes dis{
+    from{opacity: 5; display: block;}
+    to{opacity: 0; display: none;}
+}
+
+@keyframes menu {
+    from{src}
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*Code*/
+body{
+    background-color: skyskyskyskyskyskyskyskyskyskygray;
+}
+
+header{
+    /*border: 1px solid red;*/
+}
+
+.menub{
+    width: 40px;
+    height: 40px;
+    color: red;
+    position: absolute;
+    border: none;
+    left: -1%;
+    top: 0%;
+    background-color: white;
+}
+
+.accountb{
+    width: 40px;
+    height: 40px;
+}
+
+.ftable{
+    text-align: center;
+}
+
+.man{
+    width: 47.3%;
+    text-align-last: left;
+    font-family: times;
+    font-size: 30px;
+}
+
+.man2{
+    text-align: right;
+    width: 100%;
+}
+
+.mdiv{
+    position: absolute;
+    left: 9px;
+}
+
+.mdiv2{
+    position: absolute;
+    right: 70px;
+    top: 30px;
+}
+
+.headt{
+    text-align: center;
+    text-decoration-color: red;
+    color: #bf0800;
+}
+
+.back{
+    width: 102%;
+    position: sticky;
+    left: 0%;
+    right: 10%;
+}
+
+.backt{
+    /*border: 1px solid red;*/
+    width: 100%;
+    font-family: times;
+    color: red;
+    font-size: 200%;
+    position: relative;
+    top: -200px;
+}
+
+.backt2{
+    text-align: right;
+}
+
+.object{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
+    border: none;
+    border-radius: 10%;
+    right: 25%;
+    top: 55%;
+    animation-name: dis;
+    animation-play-state: paused;
+    animation-duration: 2s;
+}
+
+.textdetail{
+    text-align: center;
+    justify-content: center;
+    color: #b41e25;
+}
+
+.textdetail2{
+    text-align: center;
+    justify-content: center;
+    color: red;
+    font-family: cursive;
+    font-size: 90px;
+}
+
+.details{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 0%;
+    display: none;
+    border: 0px solid gray;
+    
+}
+
+.content{
+    text-align: ;
+}
+
+#who{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+#dev{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+.detail{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+#came{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+.menub2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    left: -1%;
+    top: 0%;
+    background-color: whitesmoke;
+    display: none;
+}
+
+.setting{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: paleturquoise;
+    top: 10%;
+    display: none;
+}
+
+.no1{
+    width: 100%;
+    height: 100px;
+    color: red;
+    background-color: green;
+    border: none;
+    border-radius: 30%;
+}
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    bottom: -10%;
+    width: 100%;
+    height: 100%;
+}
+
+.goodbye{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.last{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.last1{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white ;
+}
